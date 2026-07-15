@@ -1,0 +1,70 @@
+{
+  "generated_count": 3,
+  "results": [
+    {
+      "id": "en_001",
+      "language": "en",
+      "text": "Hello from a local multilingual speech benchmark.",
+      "output_audio": "D:\\ML Projects With Code\\voice_models_benchmarking\\outputs\\en_001_smoke.wav",
+      "latency_seconds": 0.0328,
+      "duration_seconds": 0.8,
+      "status": "generated",
+      "evaluation": {
+        "duration_seconds": 0.8,
+        "rms": 0.0,
+        "spectral_centroid": 0.0
+      },
+      "transcript": {
+        "transcript": " you",
+        "model": "openai/whisper-tiny",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "ar_001",
+      "language": "ar",
+      "text": "مرحبا من مقاييس توليد الصوت المحلية.",
+      "output_audio": "D:\\ML Projects With Code\\voice_models_benchmarking\\outputs\\ar_001_smoke.wav",
+      "latency_seconds": 0.0531,
+      "duration_seconds": 0.8,
+      "status": "generated",
+      "evaluation": {
+        "duration_seconds": 0.8,
+        "rms": 0.0,
+        "spectral_centroid": 0.0
+      },
+      "transcript": {
+        "transcript": " you",
+        "model": "openai/whisper-tiny",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "hi_001",
+      "language": "hi",
+      "text": "स्थानीय भाषाई आवाज़ बेंचमार्क से नमस्ते।",
+      "output_audio": "D:\\ML Projects With Code\\voice_models_benchmarking\\outputs\\hi_001_smoke.wav",
+      "latency_seconds": 0.0263,
+      "duration_seconds": 0.8,
+      "status": "generated",
+      "evaluation": {
+        "duration_seconds": 0.8,
+        "rms": 0.0,
+        "spectral_centroid": 0.0
+      },
+      "transcript": {
+        "transcript": " you",
+        "model": "openai/whisper-tiny",
+        "status": "ok"
+      }
+    }
+  ],
+  "models": [
+    "xtts_v2",
+    "mms_tts",
+    "piper"
+  ],
+  "hardware": {
+    "note": "The benchmark uses local CPU inference and generated placeholder waveforms for the first verified run."
+  }
+}

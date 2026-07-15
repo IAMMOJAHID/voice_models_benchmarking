@@ -1,0 +1,17 @@
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12
+librosa>=0.10
+pandas>=2.2
+tqdm>=4.4
+transformers>=4.40
+datasets>=2.19
+sentencepiece>=0.2
+jiwer>=3.0
+pydub>=0.25
+ffmpeg-python>=0.2
+accelerate>=0.30
+safetensors>=0.4
+onnxruntime>=1.17
+
+# PyTorch CPU build is installed separately in the venv to avoid mismatches on Windows
