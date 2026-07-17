@@ -6,57 +6,60 @@
       "language": "en",
       "text": "Hello from a local multilingual speech benchmark.",
       "output_audio": "D:\\ML Projects With Code\\voice_models_benchmarking\\outputs\\en_001_smoke.wav",
-      "latency_seconds": 0.0328,
-      "duration_seconds": 0.8,
+      "latency_seconds": 8.0751,
+      "duration_seconds": 3.536,
       "status": "generated",
       "evaluation": {
-        "duration_seconds": 0.8,
-        "rms": 0.0,
-        "spectral_centroid": 0.0
+        "duration_seconds": 3.536,
+        "rms": 0.1128,
+        "spectral_centroid": 1399.650037
       },
       "transcript": {
-        "transcript": " you",
+        "transcript": " Hello from a local mothaling will speech bend from our.",
         "model": "openai/whisper-tiny",
         "status": "ok"
-      }
+      },
+      "backend": "facebook/mms-tts-eng"
     },
     {
       "id": "ar_001",
       "language": "ar",
       "text": "مرحبا من مقاييس توليد الصوت المحلية.",
       "output_audio": "D:\\ML Projects With Code\\voice_models_benchmarking\\outputs\\ar_001_smoke.wav",
-      "latency_seconds": 0.0531,
-      "duration_seconds": 0.8,
+      "latency_seconds": 4.5131,
+      "duration_seconds": 5.68,
       "status": "generated",
       "evaluation": {
-        "duration_seconds": 0.8,
-        "rms": 0.0,
-        "spectral_centroid": 0.0
+        "duration_seconds": 5.68,
+        "rms": 0.107113,
+        "spectral_centroid": 1393.114649
       },
       "transcript": {
-        "transcript": " you",
+        "transcript": " مراحباً من مقايسة توليد سوطر نحلية لين",
         "model": "openai/whisper-tiny",
         "status": "ok"
-      }
+      },
+      "backend": "facebook/mms-tts-ara"
     },
     {
       "id": "hi_001",
       "language": "hi",
       "text": "स्थानीय भाषाई आवाज़ बेंचमार्क से नमस्ते।",
       "output_audio": "D:\\ML Projects With Code\\voice_models_benchmarking\\outputs\\hi_001_smoke.wav",
-      "latency_seconds": 0.0263,
-      "duration_seconds": 0.8,
+      "latency_seconds": 3.7857,
+      "duration_seconds": 3.12,
       "status": "generated",
       "evaluation": {
-        "duration_seconds": 0.8,
-        "rms": 0.0,
-        "spectral_centroid": 0.0
+        "duration_seconds": 3.12,
+        "rms": 0.147365,
+        "spectral_centroid": 1756.20724
       },
       "transcript": {
-        "transcript": " you",
+        "transcript": " ستنیے بھاشائی آواز بیٹ مارک سے نمستے",
         "model": "openai/whisper-tiny",
         "status": "ok"
-      }
+      },
+      "backend": "facebook/mms-tts-hin"
     }
   ],
   "models": [
@@ -65,6 +68,6 @@
     "piper"
   ],
   "hardware": {
-    "note": "The benchmark uses local CPU inference and generated placeholder waveforms for the first verified run."
+    "note": "The benchmark uses local CPU inference with Hugging Face MMS TTS models for English, Arabic, and Hindi."
   }
 }
